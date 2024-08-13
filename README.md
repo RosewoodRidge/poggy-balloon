@@ -1,5 +1,7 @@
 # Balloon Crap
-I Frankensteined a buncha code to make flying look less stupid. 
+I Frankensteined a buncha code to make flying look less stupid.
+
+Allows for extra passangers in the balloon without them ragdolling (via an invisible carpet in the basket), and a balloon burner pulling animation w/ chain, so ya dont just "sTAND there".
 
 Mostly from [kibook's side saddle](https://github.com/kibook/redm-sidesaddle) and [balloon control scripts](https://github.com/kibook/redm-ballooncontrols) but put in a blender 😂
 
