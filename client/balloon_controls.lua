@@ -5,7 +5,7 @@ local balloonPrompts = UipromptGroup:new("Balloon")
 
 local nsPrompt = Uiprompt:new({`INPUT_VEH_MOVE_UP_ONLY`, `INPUT_VEH_MOVE_DOWN_ONLY`}, "North/South", balloonPrompts)
 local wePrompt = Uiprompt:new({`INPUT_VEH_MOVE_LEFT_ONLY`, `INPUT_VEH_MOVE_RIGHT_ONLY`}, "West/East", balloonPrompts)
-local boostPrompt = Uiprompt:new(`INPUT_CONTEXT_B`, "Boost", balloonPrompts) -- Causes issues with other prompts for some reason
+local boostPrompt = Uiprompt:new(`INPUT_CONTEXT_B`, "Boost", balloonPrompts) 
 local brakePrompt = Uiprompt:new(`INPUT_CONTEXT_X`, "Brake", balloonPrompts)
 local lockZPrompt = Uiprompt:new(`INPUT_CONTEXT_A`, "Lock Altitude", balloonPrompts)
 local throttlePrompt = Uiprompt:new(`INPUT_VEH_FLY_THROTTLE_UP`, "Ascend", balloonPrompts)
