@@ -7,4 +7,4 @@ Mostly from [kibook's side saddle](https://github.com/kibook/redm-sidesaddle) an
 
 It can definitely be cleaned up n optimized but, I'm not really a coder, I just wanted the thing to do the thinG, so well, here ya go:
 
-![ShowCase](https://cdn.discordapp.com/attachments/1122818343641038929/1272770292925730828/218_20240812211246_1.png?ex=66bc2f34&is=66baddb4&hm=532a9c9dee2be704e75f6a9eb1716ab5a841ec5788873883db83187635fc22f3&)
+![ShowCase](https://cdn.discordapp.com/attachments/1122818343641038929/1282772341293715606/218_20240812211246_1.png?ex=66e09256&is=66df40d6&hm=f3b2b2564e0593e78723127b54b6c85686be9cc4572ab95f87788705c0bcfa60&)
