@@ -91,7 +91,7 @@ Citizen.CreateThread(function()
     Debug:Log(3, "Starting captain detection thread for controls.")
 	while true do
 		local playerPed = PlayerPedId()
-		local playerRole = exports['poggy-balloon']:GetPlayerBalloonRole()
+		local playerRole = exports[GetCurrentResourceName()]:GetPlayerBalloonRole()
 		local isCaptain = playerRole == "captain"
 		local vehiclePedIsIn = nil
 		
@@ -127,7 +127,7 @@ Citizen.CreateThread(function()
 
     while true do
         if balloon then
-            local playerRole = exports['poggy-balloon']:GetPlayerBalloonRole()
+            local playerRole = exports[GetCurrentResourceName()]:GetPlayerBalloonRole()
             
             if playerRole == "captain" then
                 Debug:Log(4, "Captain controls active for balloon: " .. balloon)
