@@ -131,7 +131,7 @@ Citizen.CreateThread(function()
     while true do
         local canWait = true
         local playerPed = PlayerPedId()
-        local playerRole = exports['balloon-crap']:GetPlayerBalloonRole()
+        local playerRole = exports['poggy-balloon']:GetPlayerBalloonRole()
 
         if playerRole then
             canWait = false
@@ -200,7 +200,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(1000)  -- Check every second
 
         local playerPed = PlayerPedId()
-        local playerRole = exports['balloon-crap']:GetPlayerBalloonRole()
+        local playerRole = exports['poggy-balloon']:GetPlayerBalloonRole()
         local vehicle = GetVehiclePedIsIn(playerPed, false)
         
         if playerRole == "captain" and vehicle ~= 0 and GetEntityModel(vehicle) == GetHashKey('hotairballoon01') then
